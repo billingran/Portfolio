@@ -1,0 +1,63 @@
+/* me */
+.my_intro .my_container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.my_intro .my_container .my_image_container {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 300px;
+}
+
+.my_intro .my_container .my_image_container img {
+  width: 32vw;
+  height: 32vw;
+  border-radius: 10%;
+}
+
+.my_intro .my_container .intro_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  flex: 2 1 430px;
+  padding: 1rem;
+}
+
+.my_intro .my_container .intro_container .intro_content {
+  padding: 1rem;
+  font-size: var(--normal-font-size);
+  text-align: justify;
+  color: var(--gray);
+}
+
+.my_intro .my_container .intro_container .intro_content p {
+  line-height: 3rem;
+}
+
+.my_intro .my_container .intro_containe .my_buttons {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 540px) {
+  .my_intro .my_container .my_image_container img {
+    width: 43vw;
+    height: 43vw;
+  }
+
+  :root {
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+  }
+}

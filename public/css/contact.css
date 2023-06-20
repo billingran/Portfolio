@@ -1,0 +1,178 @@
+/* contact */
+.contact .contact_container {
+  width: 75%;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .contact_container .infos_container {
+  display: flex;
+  flex-direction: column;
+  flex: 3 1;
+}
+
+.contact .contact_container .line_container {
+  margin: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0.3 1;
+}
+
+.contact .contact_container .clients_info_container {
+  flex: 3 1;
+}
+
+.contact .contact_container .infos_container .mystyle {
+  background-color: var(--dark-blue);
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.contact .contact_container .infos_container .my_email {
+  margin: 5.7rem 0;
+}
+
+.contact .contact_container .infos_container .contact_icon {
+  color: var(--dark-blue);
+  background-color: var(--light-blue);
+  font-size: 2rem;
+  margin: 0 0.8rem;
+  padding: 0rem 0.5rem;
+  border-radius: 50%;
+  transition: all 0.25s;
+}
+
+.contact .contact_container .infos_container .mystyle .contact_subtitle {
+  color: var(--light-gray);
+  font-size: var(--normal-font-size);
+  border-radius: 10px;
+  transition: all 0.25s;
+}
+
+.contact .contact_container .infos_container .mystyle:hover .contact_subtitle {
+  color: var(--orange);
+}
+
+.contact .contact_container .infos_container .mystyle:hover .contact_icon {
+  color: var(--orange);
+}
+
+.contact .contact_container .line_container .infos_line {
+  width: 2px;
+  min-height: 260px;
+  height: 100%;
+  background-color: var(--gray);
+}
+
+.contact .contact_container .clients_info_container .contact_top {
+  display: flex;
+  justify-content: space-between;
+}
+.contact
+  .contact_container
+  .clients_info_container
+  .contact_top
+  .contact_content {
+  width: 48%;
+}
+
+.contact .contact_container .clients_info_container .contact_content {
+  background-color: var(--dark-blue);
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+}
+
+.contact .contact_container .clients_info_container .middle_form {
+  margin: 1rem 0;
+}
+
+.contact
+  .contact_container
+  .clients_info_container
+  .contact_content
+  .contact_label {
+  font-size: var(--smaller-font-size);
+  color: var(--light-blue);
+  cursor: pointer;
+}
+
+.contact
+  .contact_container
+  .clients_info_container
+  .contact_content
+  .contact_label:hover {
+  color: var(--orange);
+  cursor: pointer;
+}
+
+.contact
+  .contact_container
+  .clients_info_container
+  .contact_content
+  .contact_input {
+  width: 100%;
+  background-color: var(--dark-blue);
+  color: var(--light-gray);
+  font-family: "Poppins", sans-serif;
+  font-size: var(--normal-font-size);
+  border: none;
+  outline: none;
+  padding: 0.25rem 0.5rem 0.5rem 0;
+}
+
+.contact .contact_container .clients_info_container .seperate_form {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem 0 0 0;
+}
+
+.error_msg {
+  color: red;
+  text-align: center;
+  width: 100%;
+  border: 1px red solid;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact .contact_container {
+    width: 89%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .contact .contact_container .line_container .infos_line {
+    width: 50%;
+    min-height: 2px;
+    background-color: var(--gray);
+    margin: 2rem auto;
+  }
+
+  .contact .contact_container .infos_container {
+    display: flex;
+    flex-direction: column;
+    flex: 3 1 290px;
+  }
+
+  .contact .contact_container .line_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.3 1 400px;
+  }
+
+  .contact .contact_container .clients_info_container {
+    flex: 3 1 290px;
+  }
+
+  .contact .contact_container .infos_container .my_email {
+    margin: 1rem 0;
+  }
+}

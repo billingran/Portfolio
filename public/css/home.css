@@ -1,0 +1,133 @@
+/* home */
+.home {
+  position: relative;
+}
+
+.home .image_container img {
+  width: 100%;
+  height: 100%;
+}
+
+.home .head_content {
+  width: 43.5%;
+  position: absolute;
+  top: 35%;
+  left: 8%;
+}
+
+.home .head_content h1 {
+  font-size: var(--home-title);
+  margin-bottom: 3%;
+}
+
+.home .head_content h3 {
+  font-size: var(--home-subtitle);
+  color: var(--light-gray);
+  margin-bottom: 3%;
+}
+
+.home .head_content p {
+  font-size: var(--home-text);
+  color: var(--white);
+  margin-bottom: 7%;
+}
+
+.home .head_content .head_icon_button_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 65%;
+}
+
+.home .head_content .head_icon_button_container .head_button {
+  display: inline-block;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding: var(--home-button-padding);
+  border-radius: 0.5rem;
+  font-weight: 500;
+  font-size: var(--home-button-text);
+  transition: 0.25s;
+}
+
+.home .head_content .head_icon_button_container .head_button:hover {
+  background-color: var(--light-blue);
+  color: var(--orange);
+}
+
+.home .head_content .head_icon_button_container .head_button_flex {
+  display: inline-flex;
+  align-items: center;
+}
+
+.home_button_icon {
+  margin-left: 0.3rem;
+  font-size: var(--home_button_icon);
+  transition: 0.25s;
+}
+
+.home .head_content .head_icon_button_container .head_icon {
+  font-size: var(--home-icons);
+  color: var(--dark-gray);
+}
+
+.home .head_content .head_icon_button_container .head_icon:hover {
+  color: var(--orange);
+}
+
+@media screen and (max-width: 1100px) {
+  .home .head_content {
+    top: 25%;
+  }
+
+  :root {
+    --home-text: 1.4vw;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .home .head_content {
+    top: 30%;
+  }
+
+  :root {
+    --home-text: 1.5vw;
+  }
+
+  .home .head_content .head_icon_button_container {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  :root {
+    /* nav */
+    --logo-font: 6vw;
+
+    /* home */
+    --home-subtitle: 2.6vw;
+    --home-text: 1.5vw;
+    --home-button-text: 1.9vw;
+    --home-button-padding: 1.9vw;
+    --home_button_icon: 2.5vw;
+    --home-icons: 2.8vw;
+  }
+
+  .home .head_content {
+    top: 28%;
+  }
+
+  .home .head_content .head_icon_button_container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .home .head_content {
+    top: 20%;
+  }
+
+  :root {
+    --home-text: 1.7vw;
+  }
+}

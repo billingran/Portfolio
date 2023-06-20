@@ -1,0 +1,105 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/* basic setting */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  background-color: var(--dark-white);
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  /* color */
+  --dark-white: #dedede;
+  --white: #fff;
+  --orange: #f45e2c;
+  --dark-blue: #324661;
+  --light-blue: #7b9fcf;
+  --gray: #838187;
+  --black: #000000;
+  --dark-gray: #292623;
+  --light-gray: #a19fad;
+
+  /* nav flex */
+  --logo-font: 2rem;
+  --nav-icons: 1.2rem;
+  --menu-border: 1.15rem;
+  --menu-toggle: 1.15rem;
+
+  /* home flex */
+  --home-title: 4.3vw;
+  --home-subtitle: 1.8vw;
+  --home-text: 1.2vw;
+  --home-button-text: 1.1vw;
+  --home-button-padding: 1.1vw;
+  --home_button_icon: 1.5vw;
+  --home-icons: 1.5rem;
+
+  /* the rest of font size*/
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+}
+
+/* gereral */
+.section {
+  padding: 2rem 0 4rem;
+  margin: 5rem auto 3rem;
+}
+
+.section_title {
+  font-size: var(--h1-font-size);
+  color: var(--dark-gray);
+  text-align: center;
+  margin-bottom: 5.5rem;
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding: var(--home-button-padding);
+  border-radius: 0.5rem;
+  font-weight: var(--home-button-text);
+  transition: 0.25s;
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--light-blue);
+  color: var(--orange);
+}
+
+.button_icon {
+  margin-left: 0.5rem;
+  font-size: 1.25rem;
+  transition: 0.25s;
+}
+
+.button_flex {
+  display: inline-flex;
+  align-items: center;
+}

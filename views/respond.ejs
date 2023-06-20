@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- head icon -->
+    <link rel="shortcut icon" href="./images/biglogo.png" />
+    <link rel="bookmark" href="./images/biglogo.png" />
+
+    <!-- iconScount -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- respond_css -->
+    <link rel="stylesheet" href="./css/respond.css" />
+
+    <title>Confirmation</title>
+  </head>
+  <body>
+    <div class="joke_container">
+      <div class="joke_text">
+        <div class="answer"></div>
+        <div class="joke"></div>
+      </div>
+      <div class="arrow"></div>
+    </div>
+
+    <section class="submission_container section">
+      <%- include("partials/message") %>
+      <h2 class="section_title">Confirmation</h2>
+      <h3 class="submission_subtitle">Je vous contacterai dès que possible</h3>
+
+      <div class="infos_container">
+        <div class="mystyle">
+          <i class="uil uil-user contact_icon"></i>
+          <span class="contact_subtitle" title="mon nom"
+            ><% if (dataUser.nameUser != "") { %> <%- dataUser.nameUser %> <% }
+            %></span
+          >
+        </div>
+        <div class="middle_space mystyle">
+          <i class="uil uil-phone contact_icon"></i>
+          <span class="contact_subtitle" title="mon numéro"
+            ><% if (dataUser.numberUser != "") { %> <%- dataUser.numberUser %>
+            <% } %></span
+          >
+        </div>
+        <div class="mystyle">
+          <i class="uil uil-envelope contact_icon"></i>
+          <span class="contact_subtitle" title="mon email"
+            ><% if (dataUser.emailUser != "") { %> <%- dataUser.emailUser %> <%
+            } %></span
+          >
+        </div>
+        <div class="mystyle middle_space">
+          <i class="uil uil-comment-message contact_icon"></i>
+          <span class="contact_subtitle more_spacer" title="mon adress"
+            ><% if (dataUser.messageUser != "") { %> <%- dataUser.messageUser %>
+            <% } %></span
+          >
+        </div>
+      </div>
+
+      <div class="face_container">
+        <a href="/" title="mon portfolio"
+          ><iconify-icon
+            icon="ic:outline-log-out"
+            class="home_icons"
+          ></iconify-icon>
+          <p class="home_text">Portfolio</p></a
+        >
+      </div>
+    </section>
+
+    <!-- iconify icon usage -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+
+    <!-- ionicon icon usage -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- respond Js -->
+    <script src="./js/respond.js"></script>
+  </body>
+</html>

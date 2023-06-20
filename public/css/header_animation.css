@@ -1,0 +1,194 @@
+div.animation {
+  position: fixed;
+  background-color: #324661;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  z-index: 1000;
+}
+
+#numA {
+  stroke-dasharray: 496.1605529785156px;
+  stroke-dashoffset: 496.1605529785156px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+
+#numB {
+  stroke-dasharray: 548.916748046875px;
+  stroke-dashoffset: 548.916748046875px;
+  animation: fadeInside 0.6s ease-in forwards 0.3s;
+}
+
+#numC {
+  stroke-dasharray: 323.2317810058594px;
+  stroke-dashoffset: 323.2317810058594px;
+  animation: fadeInside 0.6s ease-in forwards 0.6s;
+}
+
+#numD {
+  stroke-dasharray: 446.5344543457031px;
+  stroke-dashoffset: 446.5344543457031px;
+  animation: fadeInside 0.6s ease-in forwards 0.9s;
+}
+
+#numE {
+  stroke-dasharray: 227.7499237060547px;
+  stroke-dashoffset: 227.7499237060547px;
+  animation: fadeInside 0.6s ease-in forwards 1.2s;
+}
+
+#numF {
+  stroke-dasharray: 376.5374755859375px;
+  stroke-dashoffset: 376.5374755859375px;
+  animation: fadeInside 0.6s ease-in forwards 1.5s;
+}
+
+#numG {
+  stroke-dasharray: 492.4061584472656px;
+  stroke-dashoffset: 492.4061584472656px;
+  animation: fadeInside 0.6s ease-in forwards 1.8s;
+}
+
+#numH {
+  stroke-dasharray: 492.4061584472656px;
+  stroke-dashoffset: 492.4061584472656px;
+  animation: fadeInside 0.6s ease-in forwards 2.1s;
+}
+
+#numI {
+  stroke-dasharray: 446.5344543457031px;
+  stroke-dashoffset: 446.5344543457031px;
+  animation: fadeInside 0.6s ease-in forwards 2.4s;
+}
+
+#numJ {
+  stroke-dasharray: 381.10321044921875px;
+  stroke-dashoffset: 381.10321044921875px;
+  animation: fadeInside 0.6s ease-in forwards 2.7s;
+}
+
+#numK {
+  stroke-dasharray: 226.65438842773438px;
+  stroke-dashoffset: 226.65438842773438px;
+  animation: fadeInside 0.6s ease-in forwards 3s;
+}
+
+#numL {
+  stroke-dasharray: 684.7664794921875px;
+  stroke-dashoffset: 684.7664794921875px;
+  animation: fadeInside 0.6s ease-in forwards 3.3s;
+}
+
+#numM {
+  stroke-dasharray: 446.5344543457031px;
+  stroke-dashoffset: 446.5344543457031px;
+  animation: fadeInside 0.6s ease-in forwards 3.6s;
+}
+
+#numN {
+  stroke-dasharray: 475.29852294921875px;
+  stroke-dashoffset: 475.29852294921875px;
+  animation: fadeInside 0.6s ease-in forwards 3.9s;
+}
+
+#numO {
+  stroke-dasharray: 484.00006103515625px;
+  stroke-dashoffset: 484.00006103515625px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+
+#numP {
+  stroke-dasharray: 381.10321044921875px;
+  stroke-dashoffset: 381.10321044921875px;
+  animation: fadeInside 0.6s ease-in forwards 0.325s;
+}
+
+#numQ {
+  stroke-dasharray: 427.0192565917969px;
+  stroke-dashoffset: 427.0192565917969px;
+  animation: fadeInside 0.6s ease-in forwards 0.65s;
+}
+
+#numR {
+  stroke-dasharray: 381.5556945800781px;
+  stroke-dashoffset: 381.5556945800781px;
+  animation: fadeInside 0.6s ease-in forwards 0.975s;
+}
+
+#numS {
+  stroke-dasharray: 562.1670532226562px;
+  stroke-dashoffset: 562.1670532226562px;
+  animation: fadeInside 0.6s ease-in forwards 1.3s;
+}
+
+#numT {
+  stroke-dasharray: 312.2499694824219px;
+  stroke-dashoffset: 312.2499694824219px;
+  animation: fadeInside 0.6s ease-in forwards 1.625s;
+}
+
+#numU {
+  stroke-dasharray: 446.5344543457031px;
+  stroke-dashoffset: 446.5344543457031px;
+  animation: fadeInside 0.6s ease-in forwards 1.95s;
+}
+
+#numV {
+  stroke-dasharray: 381.5556945800781px;
+  stroke-dashoffset: 381.5556945800781px;
+  animation: fadeInside 0.6s ease-in forwards 2.275s;
+}
+
+#numW {
+  stroke-dasharray: 562.1669921875px;
+  stroke-dashoffset: 562.1669921875px;
+  animation: fadeInside 0.6s ease-in forwards 2.6s;
+}
+
+#numX {
+  stroke-dasharray: 139.00006103515625px;
+  stroke-dashoffset: 139.00006103515625px;
+  animation: fadeInside 0.6s ease-in forwards 2.925s;
+}
+
+#numY {
+  stroke-dasharray: 684.7666015625px;
+  stroke-dashoffset: 684.7666015625px;
+  animation: fadeInside 0.6s ease-in forwards 3.25s;
+}
+
+#numZ {
+  stroke-dasharray: 446.5344543457031px;
+  stroke-dashoffset: 446.5344543457031px;
+  animation: fadeInside 0.6s ease-in forwards 3.575s;
+}
+
+#numa {
+  stroke-dasharray: 243.874755859375px;
+  stroke-dashoffset: 243.874755859375px;
+  animation: fadeInside 0.6s ease-in forwards 3.9s;
+}
+
+svg {
+  animation: fill 1s ease-in forwards 3.6s;
+}
+
+@keyframes fadeInside {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #f45e2c;
+  }
+}

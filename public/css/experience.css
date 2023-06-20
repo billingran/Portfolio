@@ -1,0 +1,175 @@
+/* experience */
+.experience .experience_container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience .experience_switch_container {
+  width: 55%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-around;
+  color: var(--gray);
+  font-size: var(--h3-font-size);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.experience .experience_switch_container .experience_icon {
+  font-size: 1.8rem;
+}
+
+.experience .experience_container .experience_content_container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience
+  .experience_container
+  .experience_content_container
+  .experience_content_first {
+  width: 100%;
+}
+
+.experience
+  .experience_container
+  .experience_content_container
+  .experience_content {
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+
+.experience
+  .experience_container
+  .experience_content_container
+  .experience_content
+  .left_part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1;
+}
+
+.experience
+  .experience_container
+  .experience_content_container
+  .experience_content
+  .middle_part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1;
+}
+
+.experience
+  .experience_container
+  .experience_content_container
+  .experience_content
+  .right_part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1;
+}
+
+.experience
+  .experience_container
+  .experience_content_container
+  .experience_content
+  .round_point {
+  width: 13px;
+  height: 13px;
+  background-color: var(--dark-blue);
+  border-radius: 50%;
+}
+
+.experience
+  .experience_container
+  .experience_content_container
+  .experience_content
+  .line {
+  width: 1.4px;
+  min-height: 120px;
+  height: 100%;
+  background-color: var(--dark-gray);
+}
+
+.experience
+  .experience_container
+  .experience_content_container
+  .experience_content
+  .experience_title {
+  font-size: var(--normal-font-size);
+  font-weight: 500;
+}
+
+.experience
+  .experience_container
+  .experience_content_container
+  .experience_content
+  .experience_subtitle {
+  margin: 0.2rem;
+  display: inline-block;
+  font-size: var(--smaller-font-size);
+  color: gray;
+}
+
+.experience
+  .experience_container
+  .experience_content_container
+  .experience_content
+  .experience_calendar {
+  font-size: var(--smaller-font-size);
+  color: var(--light-gray);
+}
+
+@media screen and (max-width: 990px) {
+  .experience .experience_container .experience_content_container {
+    width: 100%;
+  }
+
+  .experience .experience_switch_container {
+    width: 100%;
+  }
+
+  .experience
+    .experience_container
+    .experience_content_container
+    .experience_content
+    .experience_title {
+    font-size: var(--small-font-size);
+  }
+
+  .experience
+    .experience_container
+    .experience_content_container
+    .experience_content
+    .middle_part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0.5 1;
+  }
+}
+
+.experience
+  .experience_container
+  .experience_content_container
+  .experience_content_second {
+  width: 100%;
+}
+
+.hide_exp {
+  display: none;
+}
+
+.orange_color {
+  color: var(--orange);
+}

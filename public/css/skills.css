@@ -1,0 +1,169 @@
+/* skills */
+.skills .skill_container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.skills .skill_container .skill_middle_container {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills .skill_container .skill_middle_container .middle_box {
+  padding: 3rem 2rem;
+  flex: 1 1 350px;
+}
+
+.skills .skill_container .skill_middle_container .skill_icon {
+  color: var(--dark-blue);
+  font-size: 6rem;
+}
+
+.skills .skill_container .skill_middle_container .skill_title {
+  font-size: var(--h2-font-size);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.skills .skill_container .skill_middle_container .skill_text {
+  color: gray;
+  font-size: var(--smaller-font-size);
+  font-weight: 500;
+  text-align: justify;
+}
+
+.skills
+  .skill_container
+  .skill_middle_container
+  .middle_anim1:hover
+  .skill_icon,
+.middle_anim1:hover .skill_title {
+  color: #f75421;
+  transform: translateY(-1rem);
+  transition: all 0.25s;
+  font-size: 8rem;
+}
+.skills
+  .skill_container
+  .skill_middle_container
+  .middle_anim2:hover
+  .skill_icon,
+.middle_anim2:hover .skill_title {
+  color: #2862e9;
+  transform: translateY(-1rem);
+  transition: all 0.25s;
+  font-size: 8rem;
+}
+.skills
+  .skill_container
+  .skill_middle_container
+  .middle_anim3:hover
+  .skill_icon,
+.middle_anim3:hover .skill_title {
+  color: #e8d44d;
+  transform: translateY(-1rem);
+  transition: all 0.25s;
+  font-size: 8rem;
+}
+.skills
+  .skill_container
+  .skill_middle_container
+  .middle_anim4:hover
+  .skill_icon,
+.middle_anim4:hover .skill_title {
+  color: #509941;
+  transform: translateY(-1rem);
+  transition: all 0.25s;
+  font-size: 8rem;
+}
+.skills
+  .skill_container
+  .skill_middle_container
+  .middle_anim5:hover
+  .skill_icon,
+.middle_anim5:hover .skill_title {
+  color: #00e15f;
+  transform: translateY(-1rem);
+  transition: all 0.25s;
+  font-size: 8rem;
+}
+.skills
+  .skill_container
+  .skill_middle_container
+  .middle_anim6:hover
+  .skill_icon,
+.middle_anim6:hover .skill_title {
+  color: #c53635;
+  transform: translateY(-1rem);
+  transition: all 0.25s;
+  font-size: 8rem;
+}
+
+.skills
+  .skill_container
+  .skill_middle_container
+  .middle_anim7:hover
+  .skill_icon,
+.middle_anim7:hover .skill_title {
+  color: #7377ad;
+  transform: translateY(-1rem);
+  transition: all 0.25s;
+  font-size: 8rem;
+}
+
+.skills
+  .skill_container
+  .skill_middle_container
+  .middle_anim8:hover
+  .skill_icon,
+.middle_anim8:hover .skill_title {
+  color: #00758f;
+  transform: translateY(-1rem);
+  transition: all 0.25s;
+  font-size: 8rem;
+}
+
+.skills
+  .skill_container
+  .skill_middle_container
+  .middle_anim9:hover
+  .skill_icon,
+.middle_anim9:hover .skill_title {
+  color: #77533c;
+  transform: translateY(-1rem);
+  transition: all 0.25s;
+  font-size: 8rem;
+}
+
+@media screen and (max-width: 820px) {
+  .color_one {
+    color: #f75421;
+  }
+  .color_two {
+    color: #2862e9;
+  }
+  .color_three {
+    color: #e8d44d;
+  }
+  .color_four {
+    color: #509941;
+  }
+  .color_five {
+    color: #00e15f;
+  }
+  .color_six {
+    color: #c53635;
+  }
+  .color_seven {
+    color: #7377ad;
+  }
+  .color_eight {
+    color: #00758f;
+  }
+  .color_nine {
+    color: #77533c;
+  }
+}

@@ -1,0 +1,66 @@
+/* Progress Bar */
+.progress_bar {
+  position: fixed;
+  bottom: -20%;
+  right: 0.2rem;
+  transition: 0.5s;
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--gray);
+  opacity: 0.7;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 198;
+}
+
+.progress_bar .half_circle,
+.half_circle_top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  transform-origin: right center;
+  z-index: 199;
+  /* pointer-events: none; */
+}
+
+.progress_bar .half_circle:nth-child(1) {
+  background-color: var(--dark-blue);
+}
+
+.progress_bar .half_circle:nth-child(2) {
+  background-color: var(--dark-blue);
+}
+
+.progress_bar .half_circle_top {
+  background-color: var(--gray);
+}
+
+.progress_bar .progress_bar_circle {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: var(--dark-blue);
+  background-color: var(--light-blue);
+  border-radius: 50%;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+  transition: transform 0.5s;
+  transform: rotate(0deg);
+}
+
+.progress_bar .progress_bar_circle:hover {
+  background-color: var(--orange);
+  transform: rotate(180deg);
+}
+
+.progress_turn_up.progress_bar_circle {
+  background-color: var(--orange);
+  transform: rotate(180deg);
+}
