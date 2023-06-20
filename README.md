@@ -1,6 +1,6 @@
 # [Portfolio](https://htw-myportfolio.herokuapp.com/)
 
-![Project Screenshot](images/htw.png)
+![Project Screenshot](/public/images/htw.png)
 
 ## Table of Contents
 
