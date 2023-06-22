@@ -20,7 +20,12 @@ const ejs = require("ejs");
 // Home page
 module.exports.homePage = async (req, res) => {
   try {
-    return res.render("index");
+    if (!req.session.isFirstVisit) {
+      req.session.isFirstVisit = true;
+      res.render("index", { isFirstVisit: true });
+    } else if (req.session.isFirstVisit) {
+      res.render("index", { isFirstVisit: false });
+    }
   } catch (error) {
     console.log(error);
     return res.status(500).send(error);
